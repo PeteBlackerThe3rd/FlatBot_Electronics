@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "kicad libraries")(type KiCad)(uri "/media/user/Samsung_T3/PhD Work/Smart Rover Design Work/New Locomotion System/kicad libraries")(options "")(descr ""))
+  (lib (name "Flatbot Electronic Design")(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+)

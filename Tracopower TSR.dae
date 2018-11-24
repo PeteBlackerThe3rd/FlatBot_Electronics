@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="1.5.0" xmlns="http://www.collada.org/2008/03/COLLADASchema">
+  <asset>
+    <contributor>
+      <author>TraceParts S.A.</author>
+      <author_email>webmaster@tracepartsonline.net</author_email>
+      <author_website>www.traceparts.com</author_website>
+      <copyright>Copyright © 2018TraceParts S.A. - All Rights Reserved</copyright>
+    </contributor>
+    <created>2018-11-24T16:28:46.1694658+01:00</created>
+    <modified>2018-11-24T16:28:46.1694658+01:00</modified>
+    <revision>1.0.3</revision>
+    <subject>Switching Regulator,15-32Vin,12Vout 1A</subject>
+    <title>Switching Regulator,15-32Vin,12Vout 1A</title>
+    <unit meter="0.001" name="Millimeter" />
+    <extra>
+      <technique profile="BOM_FIELDS">
+        <REFERENCE xmlns="">TSR 1-24120</REFERENCE>
+        <SUPPLIER xmlns="">Traco Power</SUPPLIER>
+        <RS_STOCK_NUMBER xmlns="">6664385</RS_STOCK_NUMBER>
+        <TIMESTAMP xmlns="">01/09/2014 16:25</TIMESTAMP>
+        <REVISION xmlns="">A</REVISION>
+        <TraceParts_x005F_x002E_PartStatus xmlns="">Published</TraceParts_x005F_x002E_PartStatus>
+        <TraceParts_x005F_x002E_PartLanguage xmlns="">en</TraceParts_x005F_x002E_PartLanguage>
+        <TraceParts_x005F_x002E_InstanceId xmlns="">10-02092014-0983218AX3UIZJGCPELF1JFWIAANDFR</TraceParts_x005F_x002E_InstanceId>
+        <TRACEPARTS xmlns="">TRACEPARTS</TRACEPARTS>
+        <TraceParts_x005F_x002E_PartNumber xmlns="">10-02092014-098321</TraceParts_x005F_x002E_PartNumber>
+        <TraceParts_x005F_x002E_PartStatusId xmlns="">
+        </TraceParts_x005F_x002E_PartStatusId>
+        <TraceParts_x005F_x002E_ClassPath xmlns="">RS_COMPONENTS:10-02092014-098321</TraceParts_x005F_x002E_ClassPath>
+      </technique>
+    </extra>
+  </asset>
+  <library_geometries>
+    <geometry id="ID41536_000" name="ID41536_000">
+      <mesh>
+        <source id="ID41536_000-Pos">
+          <float_array id="ID41536_000-Pos-array" count="120" digits="3">2.29 -4.80 1.90 2.79 -4.80 1.90 5.35 -4.80 3.75 2.79 -4.80 1.60 5.35 -4.80 -3.75 2.29 -4.80 1.60 0.25 -4.80 1.60 0.25 -4.80 1.90 -5.35 -4.80 3.75 -0.25 -4.80 1.90 -2.29 -4.80 1.90 -0.25 -4.80 1.60 -2.29 -4.80 1.60 -5.35 -4.80 -3.75 -2.79 -4.80 1.60 -2.79 -4.80 1.90 -5.85 4.80 -3.75 -5.85 -5.30 -3.75 -5.85 4.80 3.75 -5.85 -5.30 3.75 5.85 -5.30 -3.75 5.85 4.80 -3.75 5.85 -5.30 3.75 5.85 4.80 3.75 -5.35 -5.30 3.75 5.35 -5.30 3.75 -5.35 -5.30 -3.75 5.35 -5.30 -3.75 -2.79 -9.40 1.90 -2.79 -9.40 1.60 -2.29 -9.40 1.60 -2.29 -9.40 1.90 -0.25 -9.40 1.90 -0.25 -9.40 1.60 0.25 -9.40 1.60 0.25 -9.40 1.90 2.29 -9.40 1.90 2.29 -9.40 1.60 2.79 -9.40 1.60 2.79 -9.40 1.90</float_array>
+          <technique_common>
+            <accessor count="40" offset="0" source="#ID41536_000-Pos-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ID41536_000-Normal">
+          <float_array id="ID41536_000-Normal-array" count="18" digits="3">0.00 -1.00 0.00 -1.00 0.00 0.00 1.00 0.00 0.00 0.00 1.00 0.00 0.00 0.00 1.00 0.00 0.00 -1.00</float_array>
+          <technique_common>
+            <accessor count="6" offset="0" source="#ID41536_000-Normal-array" stride="3">
+              <param name="X" type="float" />
+              <param name="Y" type="float" />
+              <param name="Z" type="float" />
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ID41536_000-Vtx">
+          <input semantic="POSITION" source="#ID41536_000-Pos" />
+        </vertices>
+        <lines count="60" material="Edge_Material_0.000_0.000_0.000_1.000">
+          <input semantic="VERTEX" source="#ID41536_000-Vtx" offset="0" />
+          <p>2 4 8 2 13 8 13 4 9 11 7 9 6 7 11 6 15 14 10 15 12 10 14 12 0 5 1 0 3 1 5 3 16 17 19 17 18 19 18 16 20 21 23 21 22 23 20 22 21 16 23 18 24 19 24 8 25 2 22 25 27 20 27 4 26 13 17 26 26 24 25 27 29 14 28 29 28 15 30 12 29 30 31 10 30 31 31 28 33 11 32 33 32 9 34 6 33 34 35 7 34 35 35 32 37 5 36 37 36 0 38 3 37 38 39 1 38 39 39 36</p>
+        </lines>
+        <triangles count="46" material="Object_Material_0.000_0.000_0.000_1.000">
+          <input semantic="NORMAL" source="#ID41536_000-Normal" offset="1" />
+          <input semantic="VERTEX" source="#ID41536_000-Vtx" offset="0" />
+          <p>0 0 1 0 2 0 2 0 1 0 3 0 2 0 3 0 4 0 4 0 3 0 5 0 4 0 5 0 6 0 6 0 5 0 7 0 0 0 2 0 7 0 7 0 2 0 8 0 7 0 8 0 9 0 9 0 8 0 10 0 9 0 10 0 11 0 11 0 10 0 12 0 11 0 12 0 13 0 13 0 12 0 14 0 13 0 14 0 8 0 8 0 14 0 15 0 8 0 15 0 10 0 13 0 4 0 11 0 11 0 4 0 6 0 5 0 0 0 7 0 16 1 17 1 18 1 18 1 17 1 19 1 20 2 21 2 22 2 22 2 21 2 23 2 16 3 18 3 21 3 21 3 18 3 23 3 19 4 8 4 18 4 18 4 8 4 2 4 18 4 2 4 23 4 23 4 2 4 22 4 19 4 24 4 8 4 2 4 25 4 22 4 26 5 17 5 13 5 13 5 17 5 16 5 13 5 16 5 21 5 13 5 21 5 4 5 4 5 21 5 20 5 4 5 20 5 27 5 13 2 8 2 26 2 26 2 8 2 24 2 19 0 17 0 24 0 24 0 17 0 26 0 4 1 27 1 2 1 2 1 27 1 25 1 27 0 20 0 25 0 25 0 20 0 22 0</p>
+        </triangles>
+        <triangles count="30" material="Object_Material_0.792_0.820_0.933_1.000">
+          <input semantic="NORMAL" source="#ID41536_000-Normal" offset="1" />
+          <input semantic="VERTEX" source="#ID41536_000-Vtx" offset="0" />
+          <p>15 1 14 1 28 1 28 1 14 1 29 1 14 5 12 5 29 5 29 5 12 5 30 5 12 2 10 2 30 2 30 2 10 2 31 2 15 4 28 4 10 4 10 4 28 4 31 4 28 0 29 0 31 0 31 0 29 0 30 0 9 1 11 1 32 1 32 1 11 1 33 1 11 5 6 5 33 5 33 5 6 5 34 5 6 2 7 2 34 2 34 2 7 2 35 2 9 4 32 4 7 4 7 4 32 4 35 4 32 0 33 0 35 0 35 0 33 0 34 0 0 1 5 1 36 1 36 1 5 1 37 1 5 5 3 5 37 5 37 5 3 5 38 5 3 2 1 2 38 2 38 2 1 2 39 2 0 4 36 4 1 4 1 4 36 4 39 4 36 0 37 0 39 0 39 0 37 0 38 0</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="DefaultScene">
+      <node id="Box" name="Box">
+        <rotate>1 0 0 0</rotate>
+        <rotate>0 1 0 0</rotate>
+        <rotate>0 0 1 0</rotate>
+        <scale>1 1 1</scale>
+        <translate>0 0 0</translate>
+        <instance_geometry url="#ID41536_000">
+          <bind_material>
+            <technique_common>
+              <instance_material target="#Object_Material_0.000_0.000_0.000_1.000" symbol="Object_Material_0.000_0.000_0.000_1.000" />
+              <instance_material target="#Object_Material_0.792_0.820_0.933_1.000" symbol="Object_Material_0.792_0.820_0.933_1.000" />
+              <instance_material target="#Edge_Material_0.000_0.000_0.000_1.000" symbol="Edge_Material_0.000_0.000_0.000_1.000">
+                <bind_vertex_input semantic="UVSET0" input_semantic="TEXCOORD" input_set="0" />
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <library_effects>
+    <effect id="Effect_Constant_0.000_0.000_0.000_1.000">
+      <profile_COMMON>
+        <technique sid="Effect_Constant_0.000_0.000_0.000_1.000">
+          <constant>
+            <transparent>
+              <color>0.000 0.000 0.000 1.000</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </constant>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Phong_0.000_0.000_0.000_1.000">
+      <profile_COMMON>
+        <technique sid="Effect_Phong_0.000_0.000_0.000_1.000">
+          <phong>
+            <emission>
+              <color>0.000 0.000 0.000 1.000</color>
+            </emission>
+            <ambient>
+              <color>0.000 0.000 0.000 1.000</color>
+            </ambient>
+            <diffuse>
+              <color>0.000 0.000 0.000 1.000</color>
+            </diffuse>
+            <specular>
+              <color>0.000 0.000 0.000 1.000</color>
+            </specular>
+            <shininess>
+              <float>20</float>
+            </shininess>
+            <reflective>
+              <color>0.000 0.000 0.000 1.000</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent>
+              <color>0.000 0.000 0.000 1.000</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Effect_Phong_0.792_0.820_0.933_1.000">
+      <profile_COMMON>
+        <technique sid="Effect_Phong_0.792_0.820_0.933_1.000">
+          <phong>
+            <emission>
+              <color>0.792 0.820 0.933 1.000</color>
+            </emission>
+            <ambient>
+              <color>0.792 0.820 0.933 1.000</color>
+            </ambient>
+            <diffuse>
+              <color>0.792 0.820 0.933 1.000</color>
+            </diffuse>
+            <specular>
+              <color>0.792 0.820 0.933 1.000</color>
+            </specular>
+            <shininess>
+              <float>20</float>
+            </shininess>
+            <reflective>
+              <color>0.792 0.820 0.933 1.000</color>
+            </reflective>
+            <reflectivity>
+              <float>0.5</float>
+            </reflectivity>
+            <transparent>
+              <color>0.792 0.820 0.933 1.000</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="Edge_Material_0.000_0.000_0.000_1.000">
+      <instance_effect url="#Effect_Constant_0.000_0.000_0.000_1.000" />
+    </material>
+    <material id="Object_Material_0.000_0.000_0.000_1.000">
+      <instance_effect url="#Effect_Phong_0.000_0.000_0.000_1.000" />
+    </material>
+    <material id="Object_Material_0.792_0.820_0.933_1.000">
+      <instance_effect url="#Effect_Phong_0.792_0.820_0.933_1.000" />
+    </material>
+  </library_materials>
+  <scene>
+    <instance_visual_scene url="#DefaultScene" />
+  </scene>
+</COLLADA>
